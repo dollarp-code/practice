@@ -120,6 +120,12 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+.right-column p {
+  text-align: justify;
+  line-height: 25px;
+}
+
 .right-column a {
   text-decoration: none;
 }
@@ -159,6 +165,10 @@ body {
 
   .left-column {
     width: 100%;
+  }
+
+  .right-column {
+    width: 90%;
   }
 
   .fadein,
